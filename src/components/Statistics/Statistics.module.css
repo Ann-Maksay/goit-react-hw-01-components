@@ -1,0 +1,29 @@
+.statistics {
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 1px solid #a39c9c7c;
+    box-shadow: 2px 3px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.statList {
+    color: #ffffff;
+    display: flex;
+    margin: 0;
+}
+
+.item {
+    width: calc(100% / 5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+.percentage {
+    display: block;
+}
